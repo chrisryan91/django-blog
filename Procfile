@@ -1,1 +1,1 @@
-web: gunicorn codestar-djang0.wsgi
+web: gunicorn codestar.wsgi
