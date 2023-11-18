@@ -1,0 +1,1 @@
+web: gunicorn codestar-djang0.wsgi
