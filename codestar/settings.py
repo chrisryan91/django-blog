@@ -29,11 +29,11 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 X_FRAME_ORIGINS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ["127.0.0.1", "mb2test.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ["127.0.0.1", "mb2test.herokuapp.com", "localhost", "codestar-djang0-b589331cbb64.herokuapp.com"]
 
 # Application definition
 
